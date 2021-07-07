@@ -31,4 +31,4 @@ if '%errorlevel%' NEQ '0' (
 REG DELETE "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\sethc.exe"
 REG DELETE "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\utilman.exe"
 rmdir C:\loader /S
-REM --> Uninstall complete! remove this exe file to finish the uninstall!
+REM --> Uninstall complete! remove this file to finish the uninstall!
