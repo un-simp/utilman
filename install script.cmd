@@ -84,7 +84,7 @@ REM --> Downloading App Loader
 curl https://raw.githubusercontent.com/un-simp/utilman/built/loader.zip --output loader.zip
 curl https://raw.githubusercontent.com/un-simp/utilman/built/sethc.reg --output sethc.reg
 curl https://raw.githubusercontent.com/un-simp/utilman/built/utilman.reg --output utilman.reg
-curl https://raw.githubusercontent.com/un-simp/utilman/main/uninstall%20sethc%20replacer.cmd --output uninstallsethc.cmd
+curl https://raw.githubusercontent.com/un-simp/utilman/main/uninstallsethcreplacer.cmd --output uninstallsethc.cmd
 REM --> unzipping
 cscript //B j_unzip.vbs loader.zip
 xcopy loader C:\loader /E /H /C /I
